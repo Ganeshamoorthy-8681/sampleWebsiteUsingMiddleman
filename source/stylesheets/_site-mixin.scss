@@ -1,0 +1,6 @@
+@mixin common-header-footer-style {
+  background-color: var(--navBgColor);
+  height: 60px;
+  width: 100vw;
+  padding: 10px;
+}

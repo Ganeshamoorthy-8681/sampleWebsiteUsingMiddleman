@@ -1,0 +1,13 @@
+    heading: MARKUP LANGUAGE
+    subHeading: HTML 5
+    description:
+      HTML5 is the latest version of the Hypertext Markup Language used to build
+      and structure content on the web. It brings features like better
+      multimedia support, improved organization with semantic tags,
+      responsiveness for various devices, offline capabilities, enhanced forms,
+      graphics and animation with the  canvas tag, standardized APIs for
+      geolocation and real-time communication, and improved compatibility with
+      modern web practices. Its focus on modernizing the web and accommodating
+      various devices and user needs has made it a crucial tool for web
+      development.
+    imageUrl: assets/images/html5.png

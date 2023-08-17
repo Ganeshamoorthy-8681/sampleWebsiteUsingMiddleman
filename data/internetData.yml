@@ -1,0 +1,14 @@
+  heading: WHAT IS INTERNET ?
+  subHeading: Internet
+  description:
+    The internet's functionality in web development revolves around HTTP
+    (Hypertext Transfer Protocol), which facilitates communication between
+    clients (like web browsers) and servers. This client-server model involves
+    requesting resources via URLs, triggering a request-response cycle. the
+    client sends an HTTP request, the server processes it, and a response with
+    data such as HTML, images, or scripts is returned. HTML structures content,
+    CSS styles it, and JavaScript adds interactivity. HTTP methods like GET and
+    POST dictate request purposes, while cookies and sessions store data for
+    state maintenance. This intricate synergy forms the basis of dynamic web
+    pages and applications.
+  imageUrl: assets/images/internet.png

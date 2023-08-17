@@ -1,0 +1,62 @@
+---
+title : Basic of UI
+---
+
+<h2 class="main__page__heading"> Basics of UI Development</h2>
+<main id="stepper">
+        <div class="step-progress-bar">
+            <div class="steps-wrapper">
+                <div class="step step-active">1</div>
+                <div class="step">2</div>
+                <div class="step">3</div>
+                <div class="step">4</div>
+            </div>
+
+            <div id="progress-bar">
+                <span id="indicator"></span>
+            </div>
+        </div>
+        
+<div class="step-content active">
+         <%= partial(:'partials/homeSection', :locals => {
+    :id => "html",
+    :heading =>  data.htmlData.heading,
+    :subHeading => data.htmlData.subHeading ,
+    :imageUrl => data.htmlData.imageUrl ,
+    :description => data.htmlData.description
+ } ) %>
+    </div>
+
+    <div class="step-content">
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "css",
+    :heading => data.cssData.heading,
+    :subHeading => data.cssData.subHeading ,
+    :imageUrl => data.cssData.imageUrl ,
+    :description => data.cssData.description
+ } ) %>    </div>
+    <div class="step-content">
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "javascript",
+    :heading =>  data.javascriptData.heading,
+    :subHeading => data.javascriptData.subHeading ,
+    :imageUrl => data.javascriptData.imageUrl ,
+    :description => data.javascriptData.description
+ } ) %>
+
+ </div>
+    <div class="step-content">
+         <%= partial(:'partials/homeSection', :locals => {
+    :id => "git",
+    :heading =>  data.gitData.heading,
+    :subHeading =>data.gitData.subHeading ,
+    :imageUrl => data.gitData.imageUrl ,
+    :description => data.gitData.description
+ } ) %>
+    </div>
+</main>
+
+
+
+

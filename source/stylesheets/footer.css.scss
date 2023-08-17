@@ -1,0 +1,6 @@
+.footer {
+  @include common-header-footer-style();
+  text-align: center;
+  color: var(--navLinkColor);
+  font-size: large;
+}

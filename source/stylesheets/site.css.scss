@@ -1,0 +1,39 @@
+@import './site-mixin';
+@import './home.css.scss';
+@import './header.css.scss';
+@import './footer.css.scss';
+@import './products-stepper.css.scss';
+@import './blog.css.scss';
+@import './typography.scss';
+@import './themes.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  line-height: 1.5 ;
+  letter-spacing: 1.5px;
+  list-style-position: inside;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bodyBgColor);
+  overflow-x: hidden;
+  font-family: 'appranix';
+  color: var(--bodyTextColor);
+}
+
+.main__page__heading {
+  text-align: center;
+  font-family: "appranix-heading";
+  color: var(--sectionHead1Color);
+}
+
+#main-content {
+  min-height: calc(100vh - 120px);
+  padding: 20px;
+}

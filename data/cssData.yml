@@ -1,0 +1,11 @@
+  heading: STYLING LANGUAGE
+  subHeading: CSS 3
+  description:
+    CSS3, or Cascading Style Sheets 3, is a technology used in web development
+    to design and structure the appearance of web pages. It complements HTML by
+    defining how elements should look, including colors, fonts, spacing, and
+    layout. CSS3 offers advanced styling features beyond its predecessors,
+    allowing for more creative and complex designs. It is employed to style
+    text, create layouts, add backgrounds, borders, and animations, as well as
+    establish responsive designs that adapt to different screen sizes.
+  imageUrl: assets/images/CSS.svg

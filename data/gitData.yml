@@ -1,0 +1,11 @@
+  heading: SCM
+  subHeading: Git
+  description: >-
+    Git is a version control system that helps developers manage and track
+    changes to their code projects. It allows multiple people to collaborate on
+    the same codebase simultaneously, keeping track of every modification made
+    to the code. With Git, developers can work on different features or bug
+    fixes independently in separate branches, and then merge their changes back
+    together seamlessly. This prevents conflicts, ensures a history of changes
+    is maintained, and enables easy rollback to previous versions if needed.
+  imageUrl: assets/images/git.png

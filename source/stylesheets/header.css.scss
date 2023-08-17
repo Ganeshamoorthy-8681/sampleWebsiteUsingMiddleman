@@ -1,0 +1,42 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  @include common-header-footer-style;
+}
+
+.navigation-bar {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .active {
+    border-bottom: 3px solid var(--navLinkActiveIndicationBorderBottomColor);
+  }
+}
+
+
+.navigation-bar a:hover {
+  color: var(--navLinkHoverColor);
+}
+
+
+.nav-link {
+  padding: 10px 20px;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--navLinkColor);
+}
+
+.theme-switch-btn {
+  padding: 10px;
+  border: 1px solid var(--pageDividerColor);
+  background-color: inherit;
+  color: white;
+  outline: none;
+  margin-right: 30px;
+}

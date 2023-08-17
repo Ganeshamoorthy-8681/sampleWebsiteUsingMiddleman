@@ -1,0 +1,70 @@
+#stepper {
+    width: 70vw;
+    height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.step-progress-bar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.steps-wrapper {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--stepInactiveBgColor);
+    color: var(--stepInactiveColor);
+    z-index: 3;
+    transition: all 0.5s 0.2ms;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 3px;
+    background-color: var(--stepInactiveBgColor);
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+#indicator {
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    background-color: var(--stepActiveBgColor);
+    transition: all 0.3s 0s;
+}
+
+.step-active {
+    background-color: var(--stepActiveBgColor);
+    color: var(--stepActiveColor);
+}
+
+.step-content {
+    height: 80%;
+    width: 90%;
+    display: none;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid var(--stepContentBorderColor);
+    box-shadow: 1px 3px 8px var(--stepContentShadowColor);
+    background-color: var(--stepContentBgcolor);
+
+    &.active {
+        display: block;
+    }
+}

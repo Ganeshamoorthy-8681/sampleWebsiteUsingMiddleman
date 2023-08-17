@@ -1,0 +1,9 @@
+  heading: CSS PREPROCESSOR
+  subHeading: SASS
+  description: >-
+    Sass, which stands for "Syntactically Awesome Style Sheets," is a
+    preprocessor scripting language designed to enhance the way Cascading Style
+    Sheets (CSS) are written and managed. It extends the capabilities of regular
+    CSS by introducing features like variables, nesting, mixins, and more,
+    making it more efficient and organized for styling complex web projects.
+  imageUrl: assets/images/sass.png

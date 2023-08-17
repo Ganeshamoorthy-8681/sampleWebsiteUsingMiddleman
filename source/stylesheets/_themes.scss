@@ -1,0 +1,76 @@
+.light-theme {
+    //body colors
+    --bodyTextColor: #000;
+    --bodyBgColor: #FFFAFA;
+    //section colors
+    --sectionHead2Color: #009688;
+    --sectionHead1Color: rgb(15, 108, 151);
+    --sectionhead3Color: black;
+    --pageDividerColor: lightgray;
+    //navbar colors
+    --navBgColor: #009688;
+    --navLinkColor: white;
+    --navLinkHoverColor: #000;
+    --navLinkActiveIndicationBorderBottomColor: orange;
+    //sidebarlinks
+    --pageNavLinkColor: #000;
+    --pageNavLinkHoverColor: #009688;
+    --pageNavLinkActiveBgColor: #cfedea;
+    --pageNavLinkActiveHoverBorderColor: orange;
+    --pageNavlinkActiveColor: #000;
+    //stepper colors
+    --stepActiveBgColor: #009688;
+    --stepActiveColor: #f5f5f5;
+    --stepInactiveColor: #000;
+    --stepInactiveBgColor: lightgrey;
+    --stepContentBorderColor: lightgrey;
+    --stepContentBgcolor: #f3f3f3;
+    --stepContentShadowColor: rgba(0, 0, 0, 0.8);
+    //blog page colors
+    --blogSideDividerColor: var(--pageDividerColor);
+    --blogCardCaptionColor: #6c757d;
+    --blogCardDescriptionColor: var(--bodyTextColor);
+    --blogCardTitleColor: var(--sectionHead2Color);
+    --blogCardTitleHoverColor: #000;
+    --blogCardBgColor: var(--bodyBgColor);
+    --blogCardBorderColor: var(--stepContentBorderColor);
+}
+
+.dark-theme {
+    //body colors
+    --bodyTextColor: white;
+    --bodyBgColor: #343434;
+    //section colors
+    --sectionHead2Color: #009688;
+    --sectionHead1Color: rgb(15, 108, 151);
+    --sectionHead3Color: white;
+    --pageDividerColor: rgba(255,255,255,0.5);
+    //navbar colors
+    --navBgColor: #009688;
+    --navLinkColor: white;
+    --navLinkHoverColor: #000;
+    --navLinkActiveIndicationBorderBottomColor: orange;
+    //sidebarlinks
+    --pageNavLinkColor: white;
+    --pageNavLinkHoverColor: #009688;
+    --pageNavLinkActiveBgColor: #cfedea;
+    --pageNavLinkActiveHoverBorderColor: orange;
+    --pageNavlinkActiveColor: #000;
+    //stepper colors
+    --stepContentBorderColor: rgb(212, 212, 212);
+    --stepContentShadowColor: rgba(255, 255, 255, 0.8);
+    --stepContentBgcolor: #2e2e2e;
+    --stepActiveBgColor: #009688;
+    --stepActiveColor: #f5f5f5;
+    --stepInactiveColor: #000;
+    --stepInactiveBgColor: lightgrey;
+    //blog page colors
+    --blogCardBgColor: var(--bodyBgColor);
+    --blogCardDescriptionColor: var(--bodyTextColor);
+    --blogCardCaptionColor: white;
+    --blogCardBgColor: #2e2e2e;
+    --blogCardBorderColor: var(--stepContentBorderColor);
+    --blogSideDividerColor: var(--pageDividerColor);
+    --blogCardTitleColor: var(--sectionHead2Color);
+    --blogCardTitleHoverColor: #fff;
+}

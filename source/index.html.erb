@@ -1,0 +1,101 @@
+---
+title: Home
+---
+
+<h1 class="main__page__heading"> Front-End Developer </h1>
+
+<main id="container">
+<div class="page__content">
+
+ <%= partial(:'partials/homeSection', :locals => {
+    :id => "internet",
+    :heading =>  data.internetData.heading,
+    :subHeading => data.internetData.subHeading ,
+    :imageUrl => data.internetData.imageUrl ,
+    :description => data.internetData.description
+ } ) %>
+
+
+ <%= partial(:'partials/homeSection', :locals => {
+    :id => "html",
+    :heading =>  data.htmlData.heading,
+    :subHeading => data.htmlData.subHeading ,
+    :imageUrl => data.htmlData.imageUrl ,
+    :description => data.htmlData.description
+ } ) %>
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "css",
+    :heading => data.cssData.heading,
+    :subHeading => data.cssData.subHeading ,
+    :imageUrl => data.cssData.imageUrl ,
+    :description => data.cssData.description
+ } ) %>
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "javascript",
+    :heading =>  data.javascriptData.heading,
+    :subHeading => data.javascriptData.subHeading ,
+    :imageUrl => data.javascriptData.imageUrl ,
+    :description => data.javascriptData.description
+ } ) %>
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "sass",
+    :heading =>  data.sassData.heading,
+    :subHeading => data.sassData.subHeading ,
+    :imageUrl => data.sassData.imageUrl ,
+    :description => data.sassData.description
+ } ) %>
+
+
+   <%= partial(:'partials/homeSection', :locals => {
+    :id => "bootstrap",
+    :heading =>  data.bootstrapData.heading,
+    :subHeading =>data.bootstrapData.subHeading ,
+    :imageUrl => data.bootstrapData.imageUrl ,
+    :description => data.bootstrapData.description
+ } ) %>
+
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "git",
+    :heading =>  data.gitData.heading,
+    :subHeading =>data.gitData.subHeading ,
+    :imageUrl => data.gitData.imageUrl ,
+    :description => data.gitData.description
+ } ) %>
+
+
+  <%= partial(:'partials/homeSection', :locals => {
+    :id => "angular",
+    :heading =>  data.angularData.heading,
+    :subHeading =>data.angularData.subHeading ,
+    :imageUrl => data.angularData.imageUrl ,
+    :description => data.angularData.description
+ } ) %>
+
+   <%= partial(:'partials/homeSection', :locals => {
+    :id =>"material",
+    :heading =>  data.materialData.heading,
+    :subHeading =>data.materialData.subHeading ,
+    :imageUrl => data.materialData.imageUrl ,
+    :description => data.materialData.description
+ } ) %>
+
+</div>
+
+<aside class ="page__navigator">
+    <div class="page__navigator__wrapper">
+        <a href="#internet" class="page__navigation__link">Internet </a>
+        <a href="#html" class="page__navigation__link"> HTML 5</a>
+        <a href="#css" class="page__navigation__link">CSS </a>
+        <a href="#javascript" class="page__navigation__link"> Javascript</a>
+        <a href="#sass" class="page__navigation__link"> SaSS</a>
+        <a href="#bootstrap" class="page__navigation__link">Bootstrap </a>
+        <a href="#git" class="page__navigation__link">Git </a>
+        <a href="#angular" class="page__navigation__link">Angular </a>
+        <a href="#material" class="page__navigation__link">Angular Material </a>
+    </div>
+</aside>
+</main>

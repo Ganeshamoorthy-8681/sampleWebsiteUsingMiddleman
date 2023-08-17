@@ -1,0 +1,14 @@
+
+<div class="blog__list">
+  <% page_articles.each_with_index do |article, i| %>
+  <div class="card blog__card" style="width: 18rem;">
+  <img src= <%= article.data.imageUrl%> class="card-img-top" alt="image Not supported">
+  <div class="card-body">
+        <h5 class="card-title blog__card__title"> <%= link_to article.title, article %> </h5>
+    <p class="card-text blog__card__description"><%= article.data.description %></p>
+    <p class="card-text"><small class="blog__card__caption"><%= article.date.strftime('%b %e,%Y') %> </small></p>
+  </div>
+</div>
+  <% end %>
+</div>
+

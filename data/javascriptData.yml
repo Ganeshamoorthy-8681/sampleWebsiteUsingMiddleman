@@ -1,0 +1,13 @@
+  heading: SCRIPTING LANGUAGE
+  subHeading: JavaScript
+  description:
+    JavaScript (JS) is a programming language primarily used for making websites
+    interactive and dynamic. It's an essential component of web development as
+    it allows developers to add behaviors, respond to user actions, and update
+    content without requiring a page refresh. In the context of the web, JS is
+    used to create functionalities like interactive forms, animations, dynamic
+    content loading, and real-time updates. When a user interacts with a
+    webpage, such as clicking a button or filling out a form, JS can be used to
+    execute actions in response. This makes websites feel more engaging and
+    responsive.
+  imageUrl: assets/images/javascript.png
